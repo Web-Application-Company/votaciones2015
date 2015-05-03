@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>Sistema de Votación - DAW</title>
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<link href="./css/media-queries.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="./images/TEE.ico">
+
+</head>
+<body>
+<div id="pagewrap">
+	<header id="header">
+		<hgroup>
+			<h1 id="site-logo"><img src="" alt=""></h1>
+			<h2 id="site-description"></h2>
+		</hgroup>
+	</header>
+	<!-- /#header -->
+	
+	<div id="content">
+
+		<article class="post clearfix">
+
+			<header>
+				<h1 class="post-title">Proyecto: Sistema de Votación // Avance DAW</h1>
+				
+			<figure class="post-image"> 
+				<img src="images/logo-fondo-blanco.PNG" /> 
+			</figure>
+			<blockquote>
+					<h3>PLANTEAMIENTO DEL PROBLEMA:</h3>
+					<h4>Problemática</h4>
+						<p>
+							Los problemas que se han observado que presenta el sistema actual del TSE se puede caracterizar debido a la mala realización del SW o código “funcional”  que provoco que el sistema completo diera diversos problemas de registro de datos, Cálculo, y divulgación y muchos más problemas surgidos en su desarrollo.
+							<br>
+							<br>
+							A la vez una situación compleja en la parte estructural que componía el SW, lo que dificulto a las personas que lo utilizaban e incluso hizo que los datos a publicar de las elecciones pasadas fueran demasiados lentos y haciendo confuso los datos, perjudicando así a todas las personas en general de una forma u otra. Como lo fue parte del personal que utilizo  y que no pudieron realizar registros , cálculos y publicación, hacia la ciudadanía y a la vez causando incertidumbre, criticas y desesperación a la población.
+
+						</p>
+						<br>
+						<br>
+
+						<h4>Justificación</h4>
+						<p>
+							El sistema de votación actual que presento muchos daños en la realización de SW, dando como resultado muchas dudas a la población y poniendo a la disposición de especulaciones de fraude electoral.
+
+							Por esta razón da paso a la realización de un nuevo sistema de votación que facilitara y agilizar los procedimientos en las elección que contara de la elección de diputados, concejos municipales y de parlasen. 
+							<br><br>
+							Este nuevo sistema contara con actualización en tiempo real y verídica, será fácil de utilizar para los usuario votantes y para el personal de TSE, que también contara con registro y el fácil uso del sufragio para la población, esto ayudara enormemente al TSE para que soluciones los problemas presentados en las elecciones pasadas las cuales fueron fracaso en la parte informática y la mala capacitación de el personal asignado para el uso del SW anterior. 
+
+							También es de recalcar lo necesario que es la realización de este nuevo SW que estará a la disposición tanto como para el TSE y los votantes, aportando así un desarrollo de para la población. 
+
+						</p>	
+
+						<h4> Objetivos</h4>
+						<p>
+							<h6>General:</h6>
+							- Desarrollar un sistema de votación que cumpla con los requerimientos y necesidades para el TSE, en la realización de registros de diputados, concejos municipales y parlasen. 
+							<br><br>
+							Así mismo facilitar el manejo de todos los datos de las personas  registradas en el sistema de TSE y que todos estos datos puedan estar publicados en tiempo real antes las elecciones presentadas.
+
+							<h6>Específicos:</h6> 
+							<ol>
+								<li> Mostrar al público en general, dentro del sistema los resultados obtenidos y hacer el conteo de los votos en tiempo real. </li>
+								<br>
+								<li>Calificar de forma Automática cada unos de los votos para concejo municipal,  diputados, y parlasen, que se han realizado dentro del sistema por parte de los votantes.</li>
+								<br>
+
+								<li>Categorizar cada una de las opciones o procesos que realizara el sistema de TSE para un buen uso y funcionamiento a las personas que lo utilicen.</li>
+							</ol>
+						</p>
+						<br>
+						<hr>	
+						<h3>MARCO TEORICO:</h3>
+						<h4>Sistema de votación</h4>
+						<p>
+							En el nuevo sistema de votación que se empleara electrónicamente se optimizaran los procesos que se efectuaban en la antigua modalidad con papel.
+							El propósito del nuevo sistema de votos electrónico es agilizar y eliminar procesos que toman mucho tiempo realizarse como lo son:
+
+							<ul>
+							    <li>Conteo de votos.</li>
+							    <li>Divulgación de datos.</li>
+							    <li>Procedimiento de comprobación de votantes.</li>
+							    <li>Entrega de papeletas a Votante.</li>
+							</ul>
+							Con esto se lograra eliminar procesos largos, que gastan mucho tiempo para el usuario y en personal de juntas receptoras de votos.
+							<br>
+							Todo se desarrollara mediante el lenguaje de programación de PHP y con un gestor de base de datos de MySql y de Apache y será moldeado con HTML5 y CSS3.
+							De esta manera se harán procesos mucho más eficaces para el desarrollo de procesos electorales algunos puntos de optimización son:
+							<ul>
+							    <li>Conteo de Votos en Tiempo real.</li>
+							    <li>Publicación de estadísticas de Votos.</li>
+							    <li>Publicación de Actas de Escrutinios de votos.</li>
+							    <li>Registro de partidos políticos en contienda.</li>
+							    <li>Menos costos de realización de elecciones (papelería, etc.)</li>
+							    <li>Menor gasto en implementos de tintas indelebles y anaqueles para votación.</li>
+							</ul>
+
+						</p>
+						<hr>
+						<h3>REQUERIMIENTOS:</h3>
+						<p>
+							<h6>1- Creación de formularios de Registros según las tablas de  BD.</h6>
+							En este paso se harán los formularios para la captura de los datos que serán guardados en la base de datos para su posterior dominio y poder mostrar resultados.
+
+							<h6>2- Validación de todos los formularios que conforman el sistema.</h6>
+							Se validaran formularios en los cuales solo se introduzca información requerida para el debido uso de los campos en la base de datos y logrando una optimización en el sistema.
+
+							<h6>3- Creación de funciones para el conteo de votos.</h6>
+							Se realizaran funciones que calculen los votos y realizan promedios generales y específicos de las votaciones.
+
+							<h6>4- Desarrollo de Controladores de Accesos a BD (Usuarios, Admón.)</h6>
+							Se construirán controladores que proporcionen accesos y privilegios a personas según su cargo para la debida administración de los datos y también los usuarios puedan consultar la información que se desee.
+
+							<h6>5- Generación reportes de datos de Votos.</h6>
+							Se desarrollara la salida de los datos mostrando una estadística y promedio de los votos de los candidatos, de esta manera la población se informara de lo que sucede en tiempo real.
+
+							<h6>6- Diseño de papeletas de votación.</h6>
+							Se diseñaran 3 tipos de papeletas para: Diputados, Alcaldes, Presidente.
+							Esta contara con los campos de los rostros de todos los candidatos inscritos para las respectivas elecciones.
+
+							<h6>7- Diseño de actas para los votos ejercidos.</h6>
+							Se diseñaran las actas donde se llevaran el control de los votos emitidos así logrando un llenado automático de las actas para una mayor eficiencia en entrega de los datos a la población. 
+
+						</p>
+						<hr>
+						<h3>CASOS DE USO:</h3>
+						<figure class="post-image"> 
+							<img src="images/caso-de-uso.PNG" /> 
+						</figure>
+						<br>
+						<hr>
+						<h3>WIREFRAMES:</h3>
+						<figure class="post-image"> 
+							<img src="./images/001.jpg" />
+							<br>
+							<br> 
+							<img src="./images/002.jpg" />
+							<br>
+							<br>
+							<img src="./images/003.jpg" />
+							<br>
+							<br> 
+							<img src="./images/004.jpg" />
+							<br>
+							<br> 
+							<img src="./images/005.jpg" />
+							<br>
+							<br>
+							<img src="./images/006.jpg" />
+							<br>
+							<br> 
+							<img src="./images/007.jpg" />
+							<br>
+							<br>  
+							<img src="./images/008.jpg" />
+							<br>
+							<br>  
+						</figure>
+
+
+
+
+			</blockquote>
+
+		</article>
+		<!-- /.post -->
+
+	</div>
+	<!-- /#content --> 
+	
+	
+	
+
+	<footer id="footer">
+		<p>Desarrollo de Aplicaciones Web -- ITCA-FEPADE 2015// Eduardo Lobos // Tatiana Iraheta</p>
+	</footer>
+	<script src="./js/lobos.js" type="text/javascript" charset="utf-8"></script>
+</div>
+<!-- /#pagewrap -->
+
+</body>
+</html>
