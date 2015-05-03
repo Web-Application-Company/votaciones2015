@@ -7,5 +7,6 @@
 - Estefani  Tatiana Iraheta López  (066714)
 <br>
 <br>
-<p>pagina web de avance: http://web-application-company.github.io/votaciones2015/</p>
+<p>Ver Avance: <a href="http://web-application-company.github.io/votaciones2015/" target="_blank">Sistema de Votación </a>
+</p>
 
