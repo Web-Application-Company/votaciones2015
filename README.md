@@ -3,6 +3,6 @@
 <br>
 *Integrantes:*
 <br>
-- Nelson Eduardo Rodríguez Lobos
-- Estefani  Tatiana Iraheta López
+- Nelson Eduardo Rodríguez Lobos   (002414)
+- Estefani  Tatiana Iraheta López  (066714)
 
